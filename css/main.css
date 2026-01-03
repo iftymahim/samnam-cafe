@@ -1,16 +1,33 @@
 #sam{
     margin: 10px;
+  
     background-color: lightpink;
     background-image: url(../images/bg02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: whitesmoke;
+
 }
 
 .nam{
-    font-size: larger;
+    font-size: 50px;
     font-weight: 400;
     font-style: italic;
+    text-align: center;
+
+}
+
+.sidebar{
+    position: fixed;
+    top: 50;
+    left: 0;
+    width: 220;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    
+
 }
 li{
     font-size: x-large;
@@ -25,4 +42,14 @@ p{
 
 #cafe{
     text-align: center;
+    font-size: 50px;
+    
+
 }
+
+/* #manu{
+    font-size: 40px;
+    color: azure;
+    text-decoration: none;
+    background-color: aliceblue;
+} */
