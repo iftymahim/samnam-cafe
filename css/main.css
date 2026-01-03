@@ -47,9 +47,59 @@ p{
 
 }
 
-/* #manu{
-    font-size: 40px;
-    color: azure;
-    text-decoration: none;
-    background-color: aliceblue;
-} */
+.food-list{
+    max-width: 900px;
+    margin: auto;
+}
+
+.food-item{
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.5);
+}
+.food-item h3{
+  color: #ffcc99;
+  margin-bottom: 10px;
+  
+}
+
+.food-item img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#time{
+    color: #000000;
+   font-size: large;
+   box-shadow: 10px 10px 10px;
+}
+
+.info{
+    text-align: center;
+     max-width: 800px;
+  margin: 80px auto;
+  padding: 40px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 15px;
+  color: #ffcc99;
+
+}
+.opening-hours{
+    text-align: center;
+    font-size: xx-large;
+    color: burlywood;
+}
+.opening-hours li {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 6px auto;
+  padding: 8px 12px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 6px;
+  color: #ffcc99;
+}
+
