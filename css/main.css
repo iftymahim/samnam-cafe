@@ -162,3 +162,82 @@ label{
 .form button:hover {
   background-color: #ffcc99;
 }
+
+.order{
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 40px;
+  border-radius: 18px;
+  color: white;
+  background:rgba(0,0,0,65) ;
+}
+
+.order h2{
+  text-align: center;
+  color: #ffcc99;
+}
+
+.order p{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-btn{
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 6px 14px;
+  background: #cfa670;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.order-form{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.order-form label{
+  font-weight: 500;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea{
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+}
+
+.btn-group{
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.order-form button{
+  flex: 1;
+  padding: 12px;
+  background: #cfa670;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.order-form button:hover{
+  background: #ffcc99;
+}
+
+.order-form .reset{
+  background: #555;
+  color: white;
+}
+
+.order-form .reset:hover{
+  background: #777;
+}
