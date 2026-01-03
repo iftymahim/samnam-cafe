@@ -3,11 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order</title>
+    <title>Order Now | Samnam cafe</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="images/cafe icon.png">
 </head>
 <body id="sam">
-    
+    <section class="order">
+        <h2>Place Your Order</h2>
+       <button><a href="index.html">Home</a></button> <p>Please fill in the form below to order your favorite food.</p>
+
+        <form class="order-form">
+            <label for="name">Full Name</label><br>
+            <input type="text" placeholder="enter your name" required><br><br>
+            <label for="number">Phone Number</label><br>
+            <input type="text" placeholder="01XXXXXXXXX" required><br><br>
+            <label >select Your Food</label><br>
+            <select>
+                <option >Select Food</option>
+                <option>Burger</option>
+                <option>Pizza</option>
+                <option>Pasta</option>
+                <option>Cold Coffee</option>
+                <option>Meatbox</option>
+                <option>Creamy Mushroom Soup</option>
+                <option>Cashewnut Salad</option>
+            </select><br><br>
+
+            <label >Quantity</label><br> 
+            <input type="number" min="1" value="1"><br><br>
+            
+            <label >Order type</label><br>
+            <select >
+                <option>Order Type</option>
+                <option>Dine In</option>
+                <option>Takeaway</option>
+                <option>Home Delivery</option>
+            </select><br><br>
+
+            <label>Home Address</label><br>
+            <input type="address" placeholder="address"><br><br>
+
+            <label>Additional Notes</label><br>
+            <textarea placeholder="any special request......" rows="6"></textarea><br><br>
+
+            <button type="submit">Confirm Order</button>
+            <button type="reset">Reset</button>
+
+        </form>
+
+    </section>
 </body>
 </html>
