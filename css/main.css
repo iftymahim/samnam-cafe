@@ -186,11 +186,14 @@ label{
   display: inline-block;
   margin-bottom: 15px;
   padding: 6px 14px;
-  background: #cfa670;
+  background: chocolate;
   color: black;
   text-decoration: none;
   border-radius: 6px;
   font-weight: bold;
+}
+.home-btn:hover{
+  background: #ffcc99;
 }
 
 .order-form{
@@ -240,4 +243,67 @@ label{
 
 .order-form .reset:hover{
   background: #777;
+}
+
+.service{
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 20px;
+}
+
+.service h1{
+  text-align: center;
+  margin-bottom: 50px;
+  color: #ffcc99;
+  font-size: xx-large;
+}
+
+.service-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 30px;
+  }
+
+.service-card{
+  background:rgba(0,0,0,65);
+  border-radius: 18px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover{
+  transform: translateY(-8px);
+}
+
+.service-card h2{
+  color: #a855f7;
+  margin-bottom: 10px;
+}
+
+.service-card p{
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+.service-card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.order-btn{
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  background: #cfa670;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.order-btn:hover{
+  background: #ffcc99;
 }
