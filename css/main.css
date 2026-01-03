@@ -14,6 +14,7 @@
     font-weight: 400;
     font-style: italic;
     text-align: center;
+    color: #ffcc99;
 
 }
 
@@ -43,8 +44,13 @@ p{
 #cafe{
     text-align: center;
     font-size: 50px;
-    
+    color: #ffcc99;
+}
 
+.food{
+    font-size: 60px;
+    color: #ffcc99;
+    text-shadow: 5px 5px 10px;
 }
 
 .food-list{
@@ -90,7 +96,7 @@ p{
 .opening-hours{
     text-align: center;
     font-size: xx-large;
-    color: burlywood;
+    color: chocolate;
 }
 .opening-hours li {
   display: flex;
@@ -103,3 +109,56 @@ p{
   color: #ffcc99;
 }
 
+#form{
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    color: chocolate;
+}
+
+.form{
+ font-size: larger;
+ 
+ box-sizing: content-box;
+}
+.form label{
+    text-align: left;
+    font-weight: 500;
+}
+
+.form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+}
+
+.form textarea {
+  width: 40%;
+  min-height: 150px; 
+  resize: vertical;  
+  font-size: 16px;
+  padding: 12px;
+   line-height: 1.5;
+  border-radius: 12px;
+}
+
+label{
+    color: #ffcc99;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.form button {
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background-color: #cfa670;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #ffcc99;
+}
