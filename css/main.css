@@ -1,7 +1,10 @@
 #sam{
     margin: 10px;
     background-color: lightpink;
-    
+    background-image: url(../images/bg02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
 }
 
 .nam{
