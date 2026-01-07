@@ -330,16 +330,57 @@ footer {
 
 
 @media (max-width: 768px) {
-  #sam{
-    padding: 20px;
-    text-align: center;
+
+  /* Reset body spacing */
+  body {
+    margin: 0;
+    padding: 0;
   }
 
+  /* Fix background height */
+  #sam {
+    min-height: auto;
+    background-attachment: scroll;
+  }
+
+  /* FIX SIDEBAR (this is the key part) */
+  .sidebar {
+    position: static;        /* remove fixed */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;  /* stack buttons */
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .sidebar a {
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px;
+  }
+}
+@media (max-width: 768px) {
+
   h1 {
-    font-size: 32px;
+    font-size: 34px;
+    text-align: center;
   }
 
   p {
     font-size: 16px;
+    line-height: 1.6;
+    padding: 0 15px;
+    text-align: center;
   }
 }
+@media (max-width: 768px) {
+  footer {
+    position: static;
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+
