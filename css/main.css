@@ -329,58 +329,52 @@ footer {
 }
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-  /* Reset body spacing */
+  /* Force everything to be visible */
+  * {
+    max-width: 100%;
+  }
+
   body {
-    margin: 0;
-    padding: 0;
+    overflow-x: hidden;
   }
 
-  /* Fix background height */
-  #sam {
-    min-height: auto;
-    background-attachment: scroll;
-  }
-
-  /* FIX SIDEBAR (this is the key part) */
+  /* Sidebar FIX */
   .sidebar {
-    position: static;        /* remove fixed */
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;  /* stack buttons */
-    align-items: center;
-    gap: 15px;
-    margin-top: 20px;
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    margin: 20px 0;
   }
 
   .sidebar a {
-    width: 80%;
+    width: 85%;
+    margin: 10px 0;
     text-align: center;
     font-size: 18px;
     padding: 12px;
   }
-}
-@media (max-width: 768px) {
 
+  /* Text resize */
   h1 {
-    font-size: 34px;
+    font-size: 32px;
     text-align: center;
   }
 
   p {
     font-size: 16px;
-    line-height: 1.6;
     padding: 0 15px;
     text-align: center;
   }
-}
-@media (max-width: 768px) {
+
   footer {
-    position: static;
+    position: static !important;
     margin-top: 40px;
-    text-align: center;
   }
 }
-
